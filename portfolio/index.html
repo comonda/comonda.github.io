@@ -1,0 +1,94 @@
+---
+title: Portfolio
+layout: default
+---
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Comon - Timeline</title>
+		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container" style="margin:0;padding:0;width:100%;">
+			<header>
+				<img width="200" height="250" src="images/icon.jpg">
+				<h1>Comon</h1>
+				<p>love Python<br>
+			           hope to me a Pythoner</p>
+			</header>
+			<div class="main">
+				<ul class="cbp_tmtimeline">
+					<li>
+						<div class="cbp_tmlabel">
+							<h1 id="boxoffice">personal blog</h1>
+							<time>2016.11</time>
+							<img src="images/mywork1.jpg">
+							<ul>
+								<li>This web is designed for personal blog , learn form liaoxuefeng.com when i study python</li>
+								<li class="skill">
+									<span><b>ipython</b></span>
+									<span class="link"><a target="_blank" href="https://github.com/comonda/secondtry">Link</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmlabel">
+							<h1 id="boxoffice">social web app</h1>
+							<time>2017.1</time>
+							<img src="images/mywork2.jpg">
+							<ul>
+								<li>This is a social web app with flasky</li>
+								<li class="skill">
+									<span><b>iflasky</b></span>
+									<span class="link"><a target="_blank" href="http://www.gongkangwen.com">Link</a></span>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+
+					{% if site.duoshuo_username %}
+					<li>
+						<div class="cbp_tmlabel">
+			                <!-- 多说评论框 start -->
+			                <div class="comment">
+			                    <div class="ds-thread"
+									data-thread-key="{{site.duoshuo_username}}/portfolio"
+			                        data-title="{{page.title}}"
+			                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+			                    </div>
+			                </div>
+			                <!-- 多说评论框 end -->
+						</div>
+					</li> 
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+		{% if site.duoshuo_username %}
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		    // dynamic User by Hux
+		    var _user = '{{site.duoshuo_username}}';
+
+		    // duoshuo comment query.
+		    var duoshuoQuery = {short_name: _user };
+		    (function() {
+		        var ds = document.createElement('script');
+		        ds.type = 'text/javascript';ds.async = true;
+		        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		        ds.charset = 'UTF-8';
+		        (document.getElementsByTagName('head')[0]
+		         || document.getElementsByTagName('body')[0]).appendChild(ds);
+		    })();
+		</script>
+		<!-- 多说公共JS代码 end -->
+		{% endif %}
+	</body>
+</html>
