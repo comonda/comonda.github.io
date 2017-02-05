@@ -12,11 +12,11 @@ tags:
 
 >始于一个想记录的想法
 
-<br>
+
 ## 开始
 本来打算在csdn或者开源中国写博客的，可是总觉得一点都不酷，因此考虑自己搭建一个（这个想法大二的时候就有了，可惜一直踩坑，直到大四才弄出来）。虽然我已经有一个社交网站[www.gongkangwen.com](http:www.gongkangwen.com),但是一个简单的blog应该不需要用到这么多资源，最后就着手搭建一个属于自己的简单的blog.
 
-<br>
+
 ## 经过
 
 * 几个月前浏览到了一个个人博客,超级喜欢它的风格，经过查找，发现原来是一个开源的博客，用的是jekyll，**[大神](http://huangxuan.me)(在我看来)经过修改在github中发布了[模板代码](https://github.com/huxpro/huxpro.github.io/),特别感谢**。
@@ -40,7 +40,7 @@ rvm install 2.3
  
  5.`git push` 就可以了^_^.
  
-<br>
+
 ## 最后
 最后就把网站创建好了（多说的评论系统可能还未注册，所以还没弄），正在考虑要不要把把www.gongkangwen.com
 这个域名绑定@_@
