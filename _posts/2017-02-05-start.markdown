@@ -1,0 +1,57 @@
+---
+layout:     post
+title:      ""
+subtitle:   "起航"
+date:       2017-02-04
+author:     "Comon"
+header-img: "img/post-bg-2017.jpg"
+catalog: true
+tags:
+    - 日记
+---
+
+>始于一个想记录的想法
+
+<br>
+##开始
+本来打算在csdn或者开源中国写博客的，可是总觉得一点都不酷，因此考虑自己搭建一个（这个想法大二的时候就有了，可惜一直踩坑，直到大四才弄出来）。虽然我已经有一个社交网站[www.gongkangwen.com](http:www.gongkangwen.com),但是一个简单的blog应该不需要用到这么多资源，最后就着手搭建一个属于自己的简单的blog.
+
+<br>
+##经过
+
+* 几个月前浏览到了一个个人博客,超级喜欢它的风格，经过查找，发现原来是一个开源的博客，用的是jekyll，**[大神](http://huangxuan.me)(在我看来)经过修改在github中发布了[模板代码](https://github.com/huxpro/huxpro.github.io/),特别感谢**。
+
+* 安装jekyll的时候需要更新ruby，而更新ruby 需要下载rvm。输入代码
+```
+rvm install 2.3
+```
+之后出现各种报错，最后下载了各种依赖之后特别是openssl，最后才成功安装jekyll。
+
+* 将[大神的模板](https://github.com/huxpro/huxpro.github.io/)拉下来,简单地研究了一下，也简单地修改了模板的内容和插图，然后就把网站push上github了。
+* 提到github,这里可能需要简单地记录下如何在Github page 下创建博客，这个也很简单  
+
+ 1.创建github账户
+ 
+ 2.创建一个同名的reposity 例如 username.github.io
+ 
+ 3.`git clone ` 下这个库
+ 
+ 4.把修改好的模板放在这个库里面
+ 
+ 5.`git push` 就可以了^_^.
+ 
+<br>
+##最后
+最后就把网站创建好了（多说的评论系统可能还未注册，所以还没弄），正在考虑要不要把把www.gongkangwen.com
+这个域名绑定@_@
+
+
+
+
+
+
+
+
+
+
+
