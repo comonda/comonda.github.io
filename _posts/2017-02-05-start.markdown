@@ -4,7 +4,7 @@ title:      "起航"
 subtitle:   "记录第一篇"
 date:       2017-02-05
 author:     "Comon"
-header-img: "img/post-bg-start.jpg"
+header-img: "img/post-bg-ship.jpg"
 catalog: true
 tags:
     - 日记
