@@ -1,0 +1,48 @@
+---
+layout:      post
+title:       "work-list"
+subtitle:    "my work list"
+date:        2017-02-07
+author:      "Comon"
+header-img:  "img/post-bg-work-list.jpg"
+catalog:     true
+tags:      
+    - worklist
+
+---
+
+
+
+# work list
+## 1. python核心编程 
+**创建于2017.2.6**
+
+
+   * 分布式
+   * 多线程
+
+**2017.2.7进度为page76**
+   
+
+## 2. 爬虫
+**创建于2017.2.6**
+
+   * 带状态爬虫
+   * scrapy
+   * 正则表达式
+   * beautiful
+   *
+   
+      
+## 3. 数据分析
+**创建于2017.2.6**
+
+
+   * panda
+
+ 
+##4. flasky建网
+**创建于2017.2.6**
+
+   * 推荐系统
+   * seo
